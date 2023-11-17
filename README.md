@@ -5,11 +5,11 @@
 
 ## I'm a curious Developer, a serious Learner, and a Trap lover!
 
-- 🔭 I’m currently studying at [Georgia State University][https://www.gsu.edu/]!
-- 🌱 I’m currently learning ML and AI 🤣
+- 🔭 I’m currently studying at [Georgia State University](https://www.gsu.edu/)!
+- 🌱 I’m currently learning ML and AI 
 - 👯 I’m looking to collaborate with other creators
-- 🥅 2021 Goals: Get an internship or get accepted into a PhD program.
-- ⚡ Fun fact: I love playing soccer, FPS games, and coding in Python
+- 🥅 2024 Goals: Get an internship.
+- ⚡ Fun fact: I love playing soccer, reading books, and coding in Python
 
 ### Connect with me:
 
@@ -71,7 +71,4 @@
 [youtube]: https://www.youtube.com/channel/UCS8b1PxkqrdyHUkVloJxtdQ?view_as=subscriber
 [instagram]: https://www.instagram.com/harryc404/
 [linkedin]: https://www.linkedin.com/in/harryc04/ 
-[webdevplaylist]: https://open.spotify.com/playlist/664YIcXsTLoUgHvIIBXYfo?si=2c86583e1a9c43f0
-[jsplaylist]: https://open.spotify.com/playlist/1Y06EyN5yt6bJ6ABqYz1u1?si=e8cb262e393442aa
-[cssplaylist]: https://open.spotify.com/playlist/1rF2WzXeQJbLPOioAscUFo?si=ef1e60c5c32b44f2
-[reactplaylist]: https://open.spotify.com/playlist/6nC3Mi9qeT2WwQlsWZZV4V?si=85111afaf05e4334
+
