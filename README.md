@@ -1,4 +1,4 @@
-### Hi there, I'm Hieu Cao - aka [Harry] - aka [CodingHusk3y] 👋
+### Hi there, I'm Hieu Cao - aka [Harry]{style="color: #0000FF;"} - aka [CodingHusk3y]{style="color: #0000FF;"} 👋
 
 [![Instagram Follow](https://img.shields.io/badge/Follow-Instagram-brightgreen?style=for-the-badge&logo=instagram)](https://www.instagram.com/harryc404/)
 
