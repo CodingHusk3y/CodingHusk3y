@@ -3,9 +3,9 @@
 [![Instagram Follow](https://img.shields.io/badge/Follow-Instagram-brightgreen?style=for-the-badge&logo=instagram)](https://www.instagram.com/harryc404/)
 
 
-## I'm a curious Developer, a serious Learner, and a Trap lover!
+## I'm a curious Developer, a serious Learner, and a motivated problem-solver!
 
-- 🏫 I’m currently studying at [Georgia State University](https://www.gsu.edu/)!
+- 🏫 I’m currently a Computer Science major at [Georgia State University](https://www.gsu.edu/)!
 - 🌱 My desired career path is to become an AI Engineer or Software Engineer. I believe that I can turn this aspiration into reality and succeed in my chosen field. 
 - 👯 I’m looking to collaborate with other creators
 - 🥅 2024 Goals: Get an internship.
