@@ -13,10 +13,8 @@
 
 ### Connect with me:
 
-<a href="https://www.linkedin.com/in/your_username/" style="text-decoration: none;">
-  <img align="left" alt="LinkedIn" width="22px" src="https://simpleicons.org/icons/linkedin.svg" />
-</a>
 
+[<img align="left" alt="LinkedIn" width="22px" src="https://simpleicons.org/icons/linkedin.svg" />][linkedin]
 [<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 
 <br />
@@ -71,7 +69,7 @@
 [school_website]: https://www.gsu.edu/
 [twitter]: https://twitter.com/dukiee2k
 [youtube]: https://www.youtube.com/channel/UCS8b1PxkqrdyHUkVloJxtdQ?view_as=subscriber
-[instagram]: https://www.instagram.com/minhduc.xlr8/
+[instagram]: https://www.instagram.com/harryc404/
 [linkedin]: https://www.linkedin.com/in/harryc04/ 
 [webdevplaylist]: https://open.spotify.com/playlist/664YIcXsTLoUgHvIIBXYfo?si=2c86583e1a9c43f0
 [jsplaylist]: https://open.spotify.com/playlist/1Y06EyN5yt6bJ6ABqYz1u1?si=e8cb262e393442aa
