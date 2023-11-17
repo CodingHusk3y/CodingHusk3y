@@ -61,7 +61,7 @@
 <details>
   <summary>:zap: Github Stats</summary>
 
-  ![My GitHub stats](https://github-readme-stats.vercel.app/api?username=CodingHusk3y&show_icons=true&theme=radical)
+  ![My GitHub stats](https://github-readme-stats.vercel.app/api?username=CodingHusk3y&show_icons=true&theme=chartreuse-dark)
 
 
 </details>
