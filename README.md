@@ -1,4 +1,4 @@
-### Hi there, I'm Hieu Cao - aka **Harry** - aka *CodingHusk3y* 👋
+### Hello World, I'm Hieu Cao - aka **Harry** - aka *CodingHusk3y* 👋
 
 [![Instagram Follow](https://img.shields.io/badge/Follow-Instagram-brightgreen?style=for-the-badge&logo=instagram)](https://www.instagram.com/harryc404/) <br>
 [![Connect with me on LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/harryc04/)
@@ -15,7 +15,7 @@
 ### Connect with me:
 
 
-[<img align="left" alt="LinkedIn" width="22px" src="https://simpleicons.org/icons/linkedin.svg" />][linkedin]
+[<img align="left" alt="LinkedIn" width="22px" src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fc%2Fca%2FLinkedIn_logo_initials.png%2F480px-LinkedIn_logo_initials.png&tbnid=_HZxfSRXCXChLM&vet=12ahUKEwjyzOq548uCAxXfv4kEHYaTBJAQMygBegQIARBE..i&imgrefurl=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ALinkedIn_logo_initials.png&docid=YvoKnije3nifwM&w=480&h=480&q=linkedin%20png&hl=vi&ved=2ahUKEwjyzOq548uCAxXfv4kEHYaTBJAQMygBegQIARBE" />][linkedin]
 [<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 
 <br />
