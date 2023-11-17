@@ -3,12 +3,12 @@
 [![Instagram Follow](https://img.shields.io/badge/Follow-Instagram-brightgreen?style=for-the-badge&logo=instagram)](https://www.instagram.com/harryc404/)
 
 
-## I'm a curious Developer, serious Learner, and a Trap lover!
+## I'm a curious Developer, a serious Learner, and a Trap lover!
 
 - 🔭 I’m currently studying at [Georgia State University][https://www.gsu.edu/]!
 - 🌱 I’m currently learning ML and AI 🤣
 - 👯 I’m looking to collaborate with other creators
-- 🥅 2021 Goals: Get an intern or got accepted in a PhD program.
+- 🥅 2021 Goals: Get an internship or get accepted into a PhD program.
 - ⚡ Fun fact: I love playing soccer, FPS games, and coding in Python
 
 ### Connect with me:
