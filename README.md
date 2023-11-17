@@ -13,7 +13,10 @@
 
 ### Connect with me:
 
-[<img align="left" alt="LinkedIn" width="22px" src="https://simpleicons.org/icons/linkedin.svg" />][linkedin]
+<a href="https://www.linkedin.com/in/your_username/" style="text-decoration: none;">
+  <img align="left" alt="LinkedIn" width="22px" src="https://simpleicons.org/icons/linkedin.svg" />
+</a>
+
 [<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 
 <br />
