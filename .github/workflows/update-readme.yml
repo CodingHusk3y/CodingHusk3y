@@ -12,10 +12,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - uses: CodingHusk3y/github-activity-readme@master
+      - uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
+            GH_USERNAME: CodingHusk3y
             COMMIT_MSG: "⚡ Update README with the recent activity"
             MAX_LINES: 10
             COMMIT_NAME: GitHub Activity Readme
