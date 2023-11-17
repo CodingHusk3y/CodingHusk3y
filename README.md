@@ -69,7 +69,7 @@
 [twitter]: https://twitter.com/dukiee2k
 [youtube]: https://www.youtube.com/channel/UCS8b1PxkqrdyHUkVloJxtdQ?view_as=subscriber
 [instagram]: https://www.instagram.com/minhduc.xlr8/
-[linkedin]: https://www.linkedin.com/in/duke-vu/ 
+[linkedin]: https://www.linkedin.com/in/harryc04/ 
 [webdevplaylist]: https://open.spotify.com/playlist/664YIcXsTLoUgHvIIBXYfo?si=2c86583e1a9c43f0
 [jsplaylist]: https://open.spotify.com/playlist/1Y06EyN5yt6bJ6ABqYz1u1?si=e8cb262e393442aa
 [cssplaylist]: https://open.spotify.com/playlist/1rF2WzXeQJbLPOioAscUFo?si=ef1e60c5c32b44f2
