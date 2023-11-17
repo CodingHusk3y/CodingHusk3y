@@ -15,7 +15,7 @@
 ### Connect with me:
 
 
-[<img align="left" alt="LinkedIn" width="22px" src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.svgrepo.com%2Fshow%2F475661%2Flinkedin-color.svg&tbnid=861F1psjx0_rFM&vet=12ahUKEwiBvfWp5MuCAxW_pokEHUh-C5IQMygAegQIARBM..i&imgrefurl=https%3A%2F%2Fwww.svgrepo.com%2Fsvg%2F475661%2Flinkedin-color&docid=4xLkPX3csgHJ8M&w=800&h=800&q=colored%20linkedin%20svg&ved=2ahUKEwiBvfWp5MuCAxW_pokEHUh-C5IQMygAegQIARBM" />][linkedin]
+[<img align="left" alt="LinkedIn" width="22px" src="linkedin" />][linkedin]
 [<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 
 <br />
