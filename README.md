@@ -45,28 +45,7 @@
 
 
 
-# Recent Activity :zap:
-
-<!--START_SECTION:activity-->
-1. 🗣 Commented on [#114](https://github.com/jamesgeorge007/github-activity-readme/issues/114#issuecomment-1835129049) in [jamesgeorge007/github-activity-readme](https://github.com/jamesgeorge007/github-activity-readme)
-2. 🔒 Closed issue [#114](https://github.com/jamesgeorge007/github-activity-readme/issues/114) in [jamesgeorge007/github-activity-readme](https://github.com/jamesgeorge007/github-activity-readme)
-3. ❗ Opened issue [#114](https://github.com/jamesgeorge007/github-activity-readme/issues/114) in [jamesgeorge007/github-activity-readme](https://github.com/jamesgeorge007/github-activity-readme)
-<!--END_SECTION:activity-->
-
-
-
-<details>
-  <summary>:zap: Github Stats</summary>
-
-  ![My GitHub stats](https://github-readme-stats.vercel.app/api?username=CodingHusk3y&show_icons=true&theme=chartreuse-dark)
-
-
-</details>
-
-[website]: https://github.com/Bodisoem
 [school_website]: https://www.gsu.edu/
-[twitter]: https://twitter.com/dukiee2k
-[youtube]: https://www.youtube.com/channel/UCS8b1PxkqrdyHUkVloJxtdQ?view_as=subscriber
 [instagram]: https://www.instagram.com/harryc404/
 [linkedin]: https://www.linkedin.com/in/harryc04/ 
 [webdevplaylist]: https://open.spotify.com/playlist/664YIcXsTLoUgHvIIBXYfo?si=2c86583e1a9c43f0
