@@ -1,5 +1,9 @@
 ### Hello World, I'm Hieu Cao - aka **Harry** - aka *CodingHusk3y* 👋
 
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=CodingHusk3y&label=Profile%20views&color=0e75b6&style=flat" alt="CodingHusk3y" /> </p>
+
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=CodingHusk3y" alt="CodingHusk3y" /></a> </p>
+
 ## I'm a curious Developer, a serious Learner, and a motivated problem-solver!
 
 - 🏫 I’m currently a Computer Science major at [Georgia State University](https://www.gsu.edu/)!
