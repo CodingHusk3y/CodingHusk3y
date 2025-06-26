@@ -2,8 +2,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=CodingHusk3y&label=Profile%20views&color=0e75b6&style=flat" alt="CodingHusk3y" /> </p>
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=codinghusk3y)](https://github.com/ryo-ma/github-profile-trophy)
-
 ## I'm a curious Developer, a serious Learner, and a motivated problem-solver!
 
 - 🏫 I’m currently a Computer Science major at [Georgia State University](https://www.gsu.edu/)!
