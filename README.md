@@ -2,7 +2,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=CodingHusk3y&label=Profile%20views&color=0e75b6&style=flat" alt="CodingHusk3y" /> </p>
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=CodingHusk3y)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=codinghusk3y)](https://github.com/ryo-ma/github-profile-trophy)
 
 ## I'm a curious Developer, a serious Learner, and a motivated problem-solver!
 
@@ -10,7 +10,7 @@
 - 🌱 My desired career path is to become an AI Engineer or Software Engineer. I believe that I can turn this aspiration into reality and succeed in my chosen field. 
 - 👯 I’m looking to collaborate with other creators
 - 🥅 2025 Goals: Have an internship. ✅
-- ⚡ Fun fact: I love playing soccer, reading books, and coding in Python
+- ⚡ Fun fact: I love playing soccer and reading books
 
 ### Connect with me:
 
