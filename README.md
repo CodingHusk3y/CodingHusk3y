@@ -16,7 +16,6 @@
 
 
 [<img align="left" alt="LinkedIn" width="22px" src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG39.png" />][linkedin]
-[<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" />][instagram]
 
 <br />
 
