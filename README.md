@@ -1,9 +1,5 @@
 ### Hello World, I'm Hieu Cao - aka **Harry** - aka *CodingHusk3y* 👋
 
-[![Instagram Follow](https://img.shields.io/badge/Follow-Instagram-brightgreen?style=for-the-badge&logo=instagram)](https://www.instagram.com/harryc404/) <br>
-[![Connect with me on LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/harryc04/)
-
-
 ## I'm a curious Developer, a serious Learner, and a motivated problem-solver!
 
 - 🏫 I’m currently a Computer Science major at [Georgia State University](https://www.gsu.edu/)!
