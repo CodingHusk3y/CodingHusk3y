@@ -8,7 +8,8 @@
 - 🌱 My desired career path is to become an AI Engineer or Software Engineer. I believe that I can turn this aspiration into reality and succeed in my chosen field. 
 - 👯 I’m looking to collaborate with other creators
 - 🥅 2025 Goals: - Have an internship. ✅
-                  - Participate in 3 hackathons: 1/3 https://www.linkedin.com/in/harryc04/ 
+                  - Participate in 3 hackathons: 1/3 ![image](https://github.com/user-attachments/assets/d5105e5b-115a-4694-9a7e-e654d067a395)
+
 - ⚡ Fun fact: I love playing soccer and reading books
 
 ### Connect with me:
