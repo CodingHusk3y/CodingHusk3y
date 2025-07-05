@@ -7,7 +7,8 @@
 - 🏫 I’m currently a Computer Science major at [Georgia State University](https://www.gsu.edu/)!
 - 🌱 My desired career path is to become an AI Engineer or Software Engineer. I believe that I can turn this aspiration into reality and succeed in my chosen field. 
 - 👯 I’m looking to collaborate with other creators
-- 🥅 2025 Goals: Have an internship. ✅
+- 🥅 2025 Goals: - Have an internship. ✅
+                  - Participate in 3 hackathons: 1/3 https://www.linkedin.com/in/harryc04/ 
 - ⚡ Fun fact: I love playing soccer and reading books
 
 ### Connect with me:
