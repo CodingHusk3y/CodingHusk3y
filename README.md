@@ -5,7 +5,7 @@
 ## I'm a curious Developer, a serious Learner, and a motivated problem-solver!
 
 - 🏫 I’m currently a Computer Science major at [Georgia State University](https://www.gsu.edu/)!
-- 🌱 My desired career path is to become an AI Engineer or Software Engineer. I believe that I can turn this aspiration into reality and succeed in my chosen field. 
+- 🌱 My desired career path is to become a Software Engineer. I believe that I can turn this aspiration into reality and succeed in my chosen field. 
 - 👯 I’m looking to collaborate with other creators
 - 🥅 2025 Goals:
 - ✅ **`Goal 1`**: <strike>Have an internship.</strike>
