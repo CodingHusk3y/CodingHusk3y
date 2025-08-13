@@ -12,7 +12,7 @@
 * [ ] **`Goal 2 - Loading 1/3 ⏳`**: Participate in 3 hackathons 🏆
 * [ ] **`Goal 3`**: Have a full-time SWE job offer.
 
-Some heroes slay dragons. Others… send emails.☝️ Think you’re the one to help me complete this quest? 
+☝️ Think you’re the one to help me complete this quest? Some heroes slay dragons. Others… send emails.
 
 👉 Send me a quick [email](mailto:hcao7@student.gsu.edu) — you might be the hero 🦸‍♂️ of this story! 
 
