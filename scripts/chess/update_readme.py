@@ -146,6 +146,7 @@ def update_readme(board_md: str, moves_md: str, turn_text: str):
     section = (
         f"{BOARD_START}\n"
         f"## Community Chess\n\n"
+        f"I will play Black (solid pieces), only make a move when it's White's turn 👇\n\n"
         f"**Game status:** It's {'White' if 'WHITE' in turn_text else 'Black'}'s turn.\n\n"
         f"{board_md}\n\n"
         f"### Moves box\n\n"
