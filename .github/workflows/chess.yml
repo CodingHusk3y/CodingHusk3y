@@ -78,6 +78,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin
+          git pull --rebase origin ${{ github.ref_name }} || true
           git add README.md chess/state.txt || true
           if [ -f chess/outcome.txt ]; then
             echo "Outcome:" && cat chess/outcome.txt || true
@@ -94,13 +96,57 @@ jobs:
               msg="$msg (reset)"
             fi
             git commit -m "$msg"
-            git push
+            if ! git push; then
+              echo "Initial push failed, attempting rebase and retry..."
+              git pull --rebase origin ${{ github.ref_name }} || true
+              git push
+            fi
           fi
+
+      - name: Read outcome
+        if: steps.extract.outputs.is_chess == 'true'
+        id: outcome
+        shell: bash
+        run: |
+          applied=""
+          move=""
+          reset="${{ steps.extract.outputs.reset }}"
+          reason=""
+          turn=""
+          if [ -f chess/outcome.txt ]; then
+            applied=$(grep -E '^APPLIED=' chess/outcome.txt | head -n1 | cut -d'=' -f2)
+            move=$(grep -E '^MOVE=' chess/outcome.txt | head -n1 | cut -d'=' -f2)
+            reason=$(grep -E '^REASON=' chess/outcome.txt | head -n1 | cut -d'=' -f2)
+            turn=$(grep -E '^TURN=' chess/outcome.txt | head -n1 | cut -d'=' -f2)
+          fi
+          echo "applied=$applied" >> $GITHUB_OUTPUT
+          echo "move=$move" >> $GITHUB_OUTPUT
+          echo "reason=$reason" >> $GITHUB_OUTPUT
+          echo "turn=$turn" >> $GITHUB_OUTPUT
+
+      - name: Prepare close comment
+        if: github.event_name == 'issues' && steps.extract.outputs.is_chess == 'true'
+        id: closemsg
+        shell: bash
+        run: |
+          actor='${{ steps.extract.outputs.actor }}'
+          applied='${{ steps.outcome.outputs.applied }}'
+          move='${{ steps.outcome.outputs.move }}'
+          reset='${{ steps.extract.outputs.reset }}'
+          reason='${{ steps.outcome.outputs.reason }}'
+          turn='${{ steps.outcome.outputs.turn }}'
+          if [ "$reset" = "true" ]; then
+            msg="Thanks @$actor! Game has been reset."
+          elif [ "$applied" = "true" ]; then
+            msg="Thanks @$actor! Applied move \`$move\`. The board has been updated."
+          else
+            msg="Thanks @$actor! No change. Reason: $reason. It's $turn's turn."
+          fi
+          echo "comment=$msg" >> $GITHUB_OUTPUT
 
       - name: Close issue (if any)
         if: github.event_name == 'issues' && steps.extract.outputs.is_chess == 'true'
         uses: peter-evans/close-issue@v3
         with:
           issue-number: ${{ github.event.issue.number }}
-          comment: |
-            Thanks @${{ github.event.issue.user.login }}! Processed move `${{ steps.extract.outputs.move }}`. The board has been updated in the README.
+          comment: ${{ steps.closemsg.outputs.comment }}
