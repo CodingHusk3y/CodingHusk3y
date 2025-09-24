@@ -1,5 +1,5 @@
-APPLIED=false
-MOVE=f1b5
+APPLIED=true
+MOVE=c7c6
 RESET=false
-REASON=illegal-or-wrong-turn
-TURN=BLACK
+REASON=
+TURN=WHITE
