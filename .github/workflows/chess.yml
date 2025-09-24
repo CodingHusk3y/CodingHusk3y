@@ -11,9 +11,10 @@ permissions:
 
 jobs:
   apply-move:
-    if: |
-      github.event_name == 'workflow_dispatch' || (github.event_name == 'issues' && (startsWith(github.event.issue.title, 'chess|move|') || startsWith(github.event.issue.title, 'chess|reset')))
     runs-on: ubuntu-latest
+    concurrency:
+      group: chess
+      cancel-in-progress: false
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -32,24 +33,33 @@ jobs:
         id: extract
         shell: bash
         run: |
+          title='${{ github.event_name == 'issues' && github.event.issue.title || '' }}'
+          echo "Title: $title"
+          is_chess=false
+          move=""
+          reset=false
+
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            echo "move=" >> $GITHUB_OUTPUT
+            is_chess=true
             echo "actor=${{ github.actor }}" >> $GITHUB_OUTPUT
-            echo "reset=false" >> $GITHUB_OUTPUT
           else
-            title='${{ github.event.issue.title }}'
-            if echo "$title" | grep -qi '^chess|reset'; then
-              echo "move=" >> $GITHUB_OUTPUT
-              echo "reset=true" >> $GITHUB_OUTPUT
-            else
-              move=$(echo "$title" | awk -F'|' '{print $3}')
-              echo "move=$move" >> $GITHUB_OUTPUT
-              echo "reset=false" >> $GITHUB_OUTPUT
-            fi
             echo "actor=${{ github.event.issue.user.login }}" >> $GITHUB_OUTPUT
+            if echo "$title" | grep -qi '^chess|reset$'; then
+              is_chess=true
+              reset=true
+            elif echo "$title" | grep -qi '^chess|move|'; then
+              is_chess=true
+              move=$(echo "$title" | awk -F'|' '{print $3}')
+            fi
           fi
 
+          echo "is_chess=$is_chess" >> $GITHUB_OUTPUT
+          echo "move=$move" >> $GITHUB_OUTPUT
+          echo "reset=$reset" >> $GITHUB_OUTPUT
+          echo "Parsed -> is_chess=$is_chess move=$move reset=$reset"
+
       - name: Update README with chess board and moves
+        if: steps.extract.outputs.is_chess == 'true'
         env:
           CHESS_MOVE: ${{ steps.extract.outputs.move }}
           CHESS_ACTOR: ${{ steps.extract.outputs.actor }}
@@ -62,6 +72,7 @@ jobs:
           fi
 
       - name: Commit and push changes
+        if: steps.extract.outputs.is_chess == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -83,7 +94,7 @@ jobs:
           fi
 
       - name: Close issue (if any)
-        if: github.event_name == 'issues'
+        if: github.event_name == 'issues' && steps.extract.outputs.is_chess == 'true'
         uses: peter-evans/close-issue@v3
         with:
           issue-number: ${{ github.event.issue.number }}
