@@ -14,6 +14,7 @@ except ImportError:
 ROOT = Path(__file__).resolve().parents[2]
 STATE_FILE = ROOT / 'chess' / 'state.txt'
 README_FILE = ROOT / 'README.md'
+OUTCOME_FILE = ROOT / 'chess' / 'outcome.txt'
 
 BOARD_START = '<!-- CHESS:START -->'
 BOARD_END = '<!-- CHESS:END -->'
@@ -53,6 +54,18 @@ def write_state(board: chess.Board):
     STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
     text = f"FEN: {board.fen()}\nTURN: {'w' if board.turn == chess.WHITE else 'b'}\n"
     STATE_FILE.write_text(text, encoding='utf-8')
+
+
+def write_outcome(applied: str, move: str, reset: bool, reason: str, turn_white: bool):
+    OUTCOME_FILE.parent.mkdir(parents=True, exist_ok=True)
+    parts = [
+        f"APPLIED={applied}",
+        f"MOVE={move}",
+        f"RESET={'true' if reset else 'false'}",
+        f"REASON={reason}",
+        f"TURN={'WHITE' if turn_white else 'BLACK'}",
+    ]
+    OUTCOME_FILE.write_text("\n".join(parts) + "\n", encoding='utf-8')
 
 
 def uci_from_title(move_str: str) -> str:
@@ -173,6 +186,15 @@ def main():
         board.reset()
         extra_top = "Game has been reset to the starting position.\n\n"
         applied = 'reset'
+        write_state(board)
+        board_md = render_board(board)
+        turn_text = 'WHITE' if board.turn else 'BLACK'
+        # No moves to generate special, game just reset
+        moves_md = legal_move_links(board, repo)
+        update_readme(board_md, moves_md, turn_text, extra_top=extra_top)
+        write_outcome('reset', '', True, 'reset', board.turn == chess.WHITE)
+        print("Applied: reset")
+        return
     else:
         applied = apply_move_if_any(board, uci_from_title(args.move), args.actor)
     write_state(board)
@@ -201,8 +223,17 @@ def main():
     # Log to stdout for Actions
     if applied:
         print(f"Applied: {applied}")
+        write_outcome('true', applied, False, '', board.turn == chess.WHITE)
     else:
         print("No valid move supplied; board refreshed.")
+        # Determine reason
+        reason = ''
+        req = (args.move or '').strip().lower()
+        if not req:
+            reason = 'no-move'
+        else:
+            reason = 'illegal-or-wrong-turn'
+        write_outcome('false', req, False, reason, board.turn == chess.WHITE)
 
 if __name__ == '__main__':
     main()

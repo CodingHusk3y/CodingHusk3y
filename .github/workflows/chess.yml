@@ -79,6 +79,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md chess/state.txt || true
+          if [ -f chess/outcome.txt ]; then
+            echo "Outcome:" && cat chess/outcome.txt || true
+            git add chess/outcome.txt || true
+          fi
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
