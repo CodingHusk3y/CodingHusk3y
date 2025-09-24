@@ -137,7 +137,7 @@ def ensure_markers(readme: str) -> str:
         return block + '\n' + readme
 
 
-def update_readme(board_md: str, moves_md: str, turn_text: str):
+def update_readme(board_md: str, moves_md: str, turn_text: str, extra_top: str = ""):
     readme = README_FILE.read_text(encoding='utf-8')
     readme = ensure_markers(readme)
     # safer replacement by using regex span between markers
@@ -146,6 +146,7 @@ def update_readme(board_md: str, moves_md: str, turn_text: str):
     section = (
         f"{BOARD_START}\n"
         f"## Community Chess\n\n"
+        f"{extra_top}"
         f"I will play Black (solid pieces), only make a move when it's White's turn 👇\n\n"
         f"**Game status:** It's {'White' if 'WHITE' in turn_text else 'Black'}'s turn.\n\n"
         f"{board_md}\n\n"
@@ -161,19 +162,47 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--move', default='', help='UCI move like e2e4')
     parser.add_argument('--actor', default='anonymous', help='GitHub user who made the move')
+    parser.add_argument('--reset', action='store_true', help='Reset the game to the starting position')
     args = parser.parse_args()
 
     repo = os.getenv('GITHUB_REPOSITORY', '') or 'CodingHusk3y/CodingHusk3y'
 
     board = read_state()
-    applied = apply_move_if_any(board, uci_from_title(args.move), args.actor)
+    extra_top = ""
+    if args.reset or (args.move and args.move.strip().lower() == 'reset'):
+        board.reset()
+        extra_top = "Game has been reset to the starting position.\n\n"
+        applied = 'reset'
+    else:
+        applied = apply_move_if_any(board, uci_from_title(args.move), args.actor)
     write_state(board)
 
     board_md = render_board(board)
-    moves_md = legal_move_links(board, repo)
     turn_text = 'WHITE' if board.turn else 'BLACK'
 
-    update_readme(board_md, moves_md, turn_text)
+    # If game is over, show reset link instead of moves
+    if board.is_game_over(claim_draw=True):
+        result = board.result(claim_draw=True)
+        status = "Game over: "
+        if board.is_checkmate():
+            status += ("White" if board.turn == chess.BLACK else "Black") + " wins by checkmate."
+        elif result == '1/2-1/2':
+            status += "Draw."
+        else:
+            status += result
+        reset_title = 'chess%7Creset'
+        reset_url = f"https://github.com/{repo}/issues/new?title={reset_title}&body=Click+%27Submit+new+issue%27+to+start+a+new+game."
+        moves_md = f"{status}\n\n[Start a new game]({reset_url})"
+    else:
+        moves_md = legal_move_links(board, repo)
+
+    update_readme(board_md, moves_md, turn_text, extra_top=extra_top)
+
+    # Log to stdout for Actions
+    if applied:
+        print(f"Applied: {applied}")
+    else:
+        print("No valid move supplied; board refreshed.")
 
 if __name__ == '__main__':
     main()
