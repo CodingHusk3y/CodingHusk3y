@@ -1,2 +1,2 @@
-FEN: rnbqkbnr/pp4pp/2p2p2/4p3/2PpP3/3B4/PP1P1PPP/RNBQK1NR w KQkq - 0 6
-TURN: w
+FEN: rnbqkbnr/pp4pp/2p2p2/4p3/2PpP3/3B1N2/PP1P1PPP/RNBQK2R b KQkq - 1 6
+TURN: b
