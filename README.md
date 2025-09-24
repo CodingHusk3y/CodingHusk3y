@@ -71,7 +71,7 @@
 
 <br />
 <br />
-
+## I will play Black (solid pieces), only make a move when it's White's turn 👇
 <!-- CHESS:START -->
 ## Community Chess
 
