@@ -73,7 +73,7 @@
 <br />
 
 <!-- CHESS:START -->
-## Community Chess
+## Community Chess: I will play Black (solid pieces), only make a move when it's White's turn
 
 **Game status:** It's Black's turn.
 
