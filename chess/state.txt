@@ -1,0 +1,6 @@
+# Simple state file for the community chess game.
+# Format:
+# FEN: <current_fen>
+# TURN: w|b (whose move it is)
+FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+TURN: w

@@ -13,7 +13,7 @@
 * [ ] **`Goal 2 - Loading 1/3 ⏳`**: Participate in 3 hackathons 🏆
 * [ ] **`Goal 3`**: Have a full-time SWE job offer.
 
-☝️ Think you’re the one to help me complete this quest? Some heroes slay dragons. Others… send emails.
+☝️ Think you’re the one to help me complete this quest? Some heroes slay dragons. Others… send referrals.
 
 👉 Send me a quick [email](mailto:hcao7@student.gsu.edu) — you might be the hero 🦸‍♂️ of this story! 
 
@@ -71,6 +71,13 @@
 
 <br />
 <br />
+
+<!-- CHESS:START -->
+## Community Chess
+
+This is a community chess board. Click a move in the box to open an issue that updates the board.
+
+<!-- CHESS:END -->
 
 <picture>
   <source
