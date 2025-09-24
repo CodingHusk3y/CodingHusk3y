@@ -22,12 +22,13 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.12'
+          cache: 'pip'
+          cache-dependency-path: scripts/chess/requirements.txt
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install python-chess
+          pip install -r scripts/chess/requirements.txt
 
       - name: Extract move from issue title
         id: extract
@@ -73,6 +74,7 @@ jobs:
 
       - name: Commit and push changes
         if: steps.extract.outputs.is_chess == 'true'
+        id: commit
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -101,6 +103,7 @@ jobs:
               git pull --rebase origin ${{ github.ref_name }} || true
               git push
             fi
+            echo "sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
           fi
 
       - name: Read outcome
@@ -135,10 +138,13 @@ jobs:
           reset='${{ steps.extract.outputs.reset }}'
           reason='${{ steps.outcome.outputs.reason }}'
           turn='${{ steps.outcome.outputs.turn }}'
+          repo='${{ github.repository }}'
+          sha='${{ steps.commit.outputs.sha }}'
+          board_url="https://github.com/$repo/blob/$sha/README.md#community-chess"
           if [ "$reset" = "true" ]; then
             msg="Thanks @$actor! Game has been reset."
           elif [ "$applied" = "true" ]; then
-            msg="Thanks @$actor! Applied move \`$move\`. The board has been updated."
+            msg="Thanks @$actor! Applied move \`$move\`. The board has been updated.\n\nView it immediately: $board_url"
           else
             msg="Thanks @$actor! No change. Reason: $reason. It's $turn's turn."
           fi
