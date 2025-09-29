@@ -74,7 +74,7 @@
 
 ## Achievements
 
-[![Devpost](https://img.shields.io/badge/Devpost-Profile-blue?logo=devpost)](https://devpost.com/CodingHusk3y)
+[![Devpost Badge](https://d112y698adiu2z.cloudfront.net/photos/production/achievement_photos/000/905/552/datas/c1387e1971cd2d0e67200d956b460c07_large_silver.png)](https://devpost.com/CodingHusk3y)
 
 <!-- CHESS:START -->
 ## Community Chess
