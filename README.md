@@ -72,6 +72,10 @@
 <br />
 <br />
 
+## Achievements
+
+[![Devpost](https://img.shields.io/badge/Devpost-Profile-blue?logo=devpost)](https://devpost.com/CodingHusk3y)
+
 <!-- CHESS:START -->
 ## Community Chess
 
