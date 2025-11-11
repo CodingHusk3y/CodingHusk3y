@@ -10,7 +10,7 @@
 - 🥅 2025 Goals:
   
 ✅ **`Goal 1`**: <strike>Have an internship.</strike>
-✅ **`Goal 2`**: <strike>Participate in 3 hackathons 🏆 <strike>
+✅ **`Goal 2`**: <strike>Participate in 3 hackathons.<strike>
 * [ ] **`Goal 3`**: Have a full-time SWE job offer.
 
 ☝️ Think you’re the one to help me complete this quest? Some heroes slay dragons. Others… send referrals.
