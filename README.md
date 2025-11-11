@@ -73,20 +73,26 @@
 
 ## Achievements
 
-<p align="center">
-  <a href="https://devpost.com/CodingHusk3y">
-    <img src="https://d112y698adiu2z.cloudfront.net/photos/production/achievement_photos/000/905/552/datas/c1387e1971cd2d0e67200d956b460c07_large_silver.png" 
-         alt="Devpost Badge" width="120"/>
-  </a>
-  <a href="https://devpost.com/CodingHusk3y">
-    <img src="https://d112y698adiu2z.cloudfront.net/photos/production/achievement_photos/001/087/222/datas/2a2cd5de90e8e74016c5e23d387b74e0_large.png" 
-         alt="Devpost Badge" width="120"/>
-  </a>
-</p>
-
-<p align="center">
-  <em>X Hackathons Level 3 &nbsp;&nbsp;|&nbsp;&nbsp; Generalist</em>
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://devpost.com/CodingHusk3y">
+        <img src="https://d112y698adiu2z.cloudfront.net/photos/production/achievement_photos/000/905/552/datas/c1387e1971cd2d0e67200d956b460c07_large_silver.png" 
+             alt="Devpost Badge" width="120"/>
+      </a>
+      <br/>
+      <em>X Hackathons Level 3</em>
+    </td>
+    <td align="center">
+      <a href="https://devpost.com/CodingHusk3y">
+        <img src="https://d112y698adiu2z.cloudfront.net/photos/production/achievement_photos/001/087/222/datas/2a2cd5de90e8e74016c5e23d387b74e0_large.png" 
+             alt="Devpost Badge" width="120"/>
+      </a>
+      <br/>
+      <em>Generalist</em>
+    </td>
+  </tr>
+</table>
 
 <!-- CHESS:START -->
 ## Community Chess
