@@ -79,8 +79,6 @@
 <a href="https://pandas.pydata.org/" title="Pandas" style="display:inline-block;margin:6px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="40"/></a>
 <a href="https://opencv.org/" title="OpenCV" style="display:inline-block;margin:6px;"><img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" width="40"/></a>
 <a href="https://spark.apache.org/" title="Apache Spark" style="display:inline-block;margin:6px;"><img src="https://www.vectorlogo.zone/logos/apache_spark/apache_spark-icon.svg" width="40"/></a>
-<a href="#" title="MapReduce" style="display:inline-block;margin:6px;"><img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Hadoop_logo_new.svg" width="40"/></a>
-<a href="#" title="Gemini" style="display:inline-block;margin:6px;"><img src="https://www.vectorlogo.zone/logos/google_gemini/google_gemini-icon.svg" width="40"/></a>
 </p>
 
 </div>
