@@ -56,9 +56,7 @@
 <a href="https://cloud.google.com/" title="Google Cloud" style="display:inline-block;margin:6px;"><img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" width="40"/></a>
 <a href="https://azure.microsoft.com/" title="Azure" style="display:inline-block;margin:6px;"><img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" width="40"/></a>
 <a href="https://www.oracle.com/cloud/" title="Oracle Cloud" style="display:inline-block;margin:6px;"><img src="https://www.vectorlogo.zone/logos/oracle/oracle-icon.svg" width="40"/></a>
-<a href="https://aws.amazon.com/s3/" title="Amazon S3" style="display:inline-block;margin:6px;"><img src="https://www.vectorlogo.zone/logos/amazon_s3/amazon_s3-icon.svg" width="40"/></a>
 <a href="https://www.docker.com/" title="Docker" style="display:inline-block;margin:6px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" width="40"/></a>
-<a href="https://vercel.com/" title="Vercel" style="display:inline-block;margin:6px;"><img src="https://www.vectorlogo.zone/logos/vercel/vercel-icon.svg" width="40"/></a>
 <a href="https://www.netlify.com/" title="Netlify" style="display:inline-block;margin:6px;"><img src="https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg" width="40"/></a>
 <a href="https://www.jenkins.io" title="Jenkins" style="display:inline-block;margin:6px;"><img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" width="40"/></a>
 <a href="https://git-scm.com/" title="Git" style="display:inline-block;margin:6px;"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="40"/></a>
