@@ -33,7 +33,6 @@
 ### 🎨 Frontend
 <p>
 <a href="https://reactjs.org/" title="React" style="display:inline-block;margin:6px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="40"/></a>
-<a href="https://reactnative.dev/" title="React Native" style="display:inline-block;margin:6px;"><img src="https://reactnative.dev/img/header_logo.svg" width="40"/></a>
 <a href="https://vuejs.org/" title="Vue.js" style="display:inline-block;margin:6px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" width="40"/></a>
 <a href="https://angular.io" title="Angular" style="display:inline-block;margin:6px;"><img src="https://angular.io/assets/images/logos/angular/angular.svg" width="40"/></a>
 <a href="https://tailwindcss.com/" title="Tailwind CSS" style="display:inline-block;margin:6px;"><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="40"/></a>
