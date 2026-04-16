@@ -60,7 +60,6 @@
 <a href="https://www.docker.com/" title="Docker" style="display:inline-block;margin:6px;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" width="40"/></a>
 <a href="https://vercel.com/" title="Vercel" style="display:inline-block;margin:6px;"><img src="https://www.vectorlogo.zone/logos/vercel/vercel-icon.svg" width="40"/></a>
 <a href="https://www.netlify.com/" title="Netlify" style="display:inline-block;margin:6px;"><img src="https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg" width="40"/></a>
-<a href="https://render.com/" title="Render" style="display:inline-block;margin:6px;"><img src="https://render.com/images/logo.svg" width="40"/></a>
 <a href="https://www.jenkins.io" title="Jenkins" style="display:inline-block;margin:6px;"><img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" width="40"/></a>
 <a href="https://git-scm.com/" title="Git" style="display:inline-block;margin:6px;"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="40"/></a>
 </p>
