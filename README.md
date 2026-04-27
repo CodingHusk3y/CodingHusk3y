@@ -20,10 +20,7 @@
 - ⚡ Fun fact: I love playing soccer and reading books
 
 ### Connect with me:
-
-
-[<img align="left" alt="LinkedIn" width="22px" src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG39.png" />][linkedin]
-
+[<img align="left" alt="LinkedIn" width="22px" src="https://cdn.simpleicons.org/linkedin" />][linkedin]
 <br />
 
 ### Languages and Tools:
