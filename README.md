@@ -19,17 +19,12 @@
 
 - ⚡ Fun fact: I love playing soccer and reading books
 
-### Connect with me:
-
-<p align="center">
+<h3>
+  🤝 Connect with me:
   <a href="https://www.linkedin.com/in/harryc04/">
-    <img src="https://cdn.simpleicons.org/linkedin" width="30"/>
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" width="22" style="vertical-align: middle; margin-left: 8px;" />
   </a>
-  &nbsp;&nbsp;
-  <a href="mailto:hcao7@student.gsu.edu">
-    <img src="https://cdn.simpleicons.org/gmail" width="30"/>
-  </a>
-</p>
+</h3>
 
 ### Languages and Tools:
 
