@@ -7,7 +7,7 @@
 - 🏫 I’m currently a Computer Science major at [Georgia State University](https://www.gsu.edu/)!
 - 🌱 My desired career path is to become a Software Engineer. I believe that I can turn this aspiration into reality and succeed in my chosen field. 
 - 👯 I’m looking to collaborate with other creators
-- 🥅 2025 Goals:
+- 🥅 Educational Goals (of a typical CS student):
   
 * ✅ **`Goal 1`**: Have an internship.
 * ✅ **`Goal 2`**: Participate in 10 hackathons 🏆
