@@ -11,7 +11,7 @@
   
 * ✅ **`Goal 1`**: Have an internship.
 * ✅ **`Goal 2`**: Participate in 10 hackathons 🏆
-* ✅ **`Goal 3`**: Have a full-time SWE job offer.
+* [] **`Goal 3`**: Have a full-time SWE job offer.
 
 ☝️ Think you’re the one to help me complete this quest? Some heroes slay dragons. Others… send referrals.
 
